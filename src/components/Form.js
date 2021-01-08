@@ -5,17 +5,19 @@ const Form = (props) => {
     const [email, setEmail] = useState("");
     const [password, setPassword]= useState("");
     const [confirmPass, setConfirmPass] = useState("");
-    const [firstnameErr, seFirstnameErr] = 
-const createUser = (e) => {
-    const{input, setInputs} = props;
+    const [firstnameErr, setFirstnameErr] = useState("")
+
+let createUser = (e) => {
+
     setInputs({
         ...input ,
         [e.target.name]: e.target.value
+
     });
-};
-const validator = ()=>{
-    if(firstname
+
 }
+
+
 
 return(
     
