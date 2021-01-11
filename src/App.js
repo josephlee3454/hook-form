@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
-import Results from './components/Results';
+
+
 import Form from './components/Form';
 import './App.css';
 
@@ -11,12 +12,12 @@ function App() {
     lastname: "",
     email: "",
     password: "",
-    confirmPass: "",
+    confirm: "",
   })
   return (
     <div className="App">
       <Form input={state} setInputs={setState}/>
-      <Results data={state}/>
+   
     </div>
   );
 }

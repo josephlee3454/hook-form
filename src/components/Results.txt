@@ -1,0 +1,16 @@
+
+// import React, { useState } from 'react';
+// const Results = (props) => {
+//     const {firstname, lastname, email, confirm ,password} = props.data;
+//     return(
+//         <div>
+//             <p>First Name: {firstname}</p>
+//             <p>Last Name: {lastname}</p>
+//             <p>Email: {email}</p>
+//             <p>password: {password}</p>
+//             <p>confirm: {confirm}</p>
+
+//         </div>
+//     );
+// }
+// export default Results
